@@ -79,3 +79,6 @@ for image_name in images_path_list:
     
 # Finalizar abriendo la carpeta de salida en el explorador de archivos.
 webbrowser.open(os.path.realpath(output_folder))
+
+print('/ncapture_face_from_images.py: Programa finalizado.')
+exit()
