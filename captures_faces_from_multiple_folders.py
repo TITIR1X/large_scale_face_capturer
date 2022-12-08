@@ -49,3 +49,6 @@ for folder in os.listdir(input_folder_path):
             img_count +=1
 
     print(f'\n\nfolder: {input_folder_path}/{folder} ok!\n\n')
+    
+print('/ncaptures_faces_from_multiple_folders.py: Programa finalizado.')
+exit()
