@@ -3,7 +3,10 @@ from PIL import Image
 import cv2, os, shutil, webbrowser
 
 # Limpiar la consola
-os.system('cls')
+try:
+ os.system('color 6')
+ os.system('cls')
+except:os.system('clear')
 
 print("""
  ./capture_face_from_images.py
