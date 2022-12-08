@@ -1,7 +1,10 @@
 import cv2, os
 
-os.system('cls')
-
+try:
+ os.system('color 6')
+ os.system('cls')
+except:os.system('clear')
+ 
 print("""
  ./capture_face_from_images.py
   ____              _______ _   ______ _       ___ __     __
