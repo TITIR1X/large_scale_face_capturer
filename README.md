@@ -4,6 +4,8 @@ This program was created for a project called PsicoRecogn. The purpose of this p
 
 The programs I created for the project were designed to analyze on a massive scale.
 
+If the PsicoRecogn project proves effective in capturing and analyzing morphopsychology, it could be used in dating applications to match people with complementary psychological profiles.
+
 **Installation:** tested in python 3.10.0 | Windows 10
 
 - pip install Pillow==9.3.0
