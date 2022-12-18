@@ -1,9 +1,12 @@
-import cv2, os
+import cv2
+import platform, os
 
-try:
- os.system('color 6')
- os.system('cls')
-except:os.system('clear')
+os_name = platform.system()
+
+if os_name == 'Windows':
+    os.system('cls')
+elif os_name == "Linux":
+    os.system('clear')
  
 print("""
  ./capture_face_from_images.py
